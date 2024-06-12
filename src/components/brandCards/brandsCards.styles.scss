@@ -1,0 +1,14 @@
+.contentBrandCard {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+}

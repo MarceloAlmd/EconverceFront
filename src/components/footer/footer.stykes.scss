@@ -1,0 +1,133 @@
+footer {
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  min-height: 400px;
+  min-width: 100vw;
+  flex-direction: column;
+  background-color: var(--gray-700);
+}
+
+main {
+  width: 100%;
+  margin-top: 4rem;
+  max-width: 1280px;
+  flex-direction: column;
+}
+
+h2 {
+  color: var(--gray-200);
+  font-size: 0.8em;
+}
+
+.linkSection {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: var(--gray-300);
+    font-size: 0.7em;
+    text-decoration: none;
+  }
+}
+
+.linksSocial {
+  gap: 2rem;
+  display: flex;
+}
+
+.leftFirstDiv {
+  display: flex;
+  min-width: 40vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstDiv {
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gray-300);
+}
+
+image {
+  max-width: 150px;
+}
+
+.paymentImages {
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+  align-items: center;
+  flex-direction: row;
+  justify-self: center;
+}
+
+.rigthFirstDiv {
+  display: flex;
+  max-width: 10vw;
+  align-items: top;
+  justify-content: center;
+}
+
+.destaque {
+  gap: 2rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  background-color: var(--white);
+
+  margin-left: 200px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.inputEmail {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+.secondDiv {
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: var(--white);
+  max-width: 60vw;
+}
+
+.imgCopyright {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}

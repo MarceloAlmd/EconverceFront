@@ -1,0 +1,34 @@
+.adsCard {
+  width: 100%;
+  max-width: 574px;
+  height: 360px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/adsCard.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  padding: 100px 0px 40px 40px;
+
+  span {
+    color: var(--gray-200);
+    max-width: 160px;
+  }
+
+  h2 {
+    align-self: flex-start;
+
+    color: var(--white);
+    font-size: 48px;
+  }
+}

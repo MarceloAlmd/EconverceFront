@@ -1,0 +1,30 @@
+.banner {
+  width: 100%;
+  height: 24.375rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/bannerPromotion.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 50px;
+
+  h1 {
+    font-size: 48px;
+    color: var(--white);
+    line-height: 140%;
+    width: 50rem;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: var(--white);
+  }
+
+  .contentBanner {
+    width: 100%;
+    max-width: 1280px;
+
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,32 @@
+.mobileCard {
+  width: 270px;
+  height: 450px;
+
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  padding: 10px;
+
+  .promotionPrice {
+    text-decoration: line-through;
+    font-size: 14px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .options {
+    font-size: 12px;
+  }
+
+  .info {
+    color: var(--red);
+    font-size: 12px;
+  }
+}
