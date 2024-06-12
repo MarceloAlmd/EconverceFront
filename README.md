@@ -17,7 +17,7 @@ Para executar este projeto localmente, siga estas etapas:
 
 1. Crie uma pasta no seu computador.
 2. abra o CMD do seu computador, navegue até a pasta.
-3. faça o clone do projeto. 
+3. faça o clone do projeto com o comando git clone 
 ![image](https://github.com/MarceloAlmd/EconverceFront/assets/85407905/99691d8d-ec2b-4be3-aa8a-03bd4cbdb803)
 4. Navegue até o diretório do projeto.
 5. Instale as dependências com o seguinte comando: npm i
