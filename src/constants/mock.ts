@@ -1,4 +1,4 @@
-export const Produtos = {
+export const product = {
   success: true,
   products: [
     {

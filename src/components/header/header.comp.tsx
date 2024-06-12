@@ -9,7 +9,7 @@ export function Header() {
   return (
     <>
       <Promotion />
-      <header>
+      <header className="headerSearch">
         <img src="/logoVTEXCompleted.svg" alt="" />
         <div className="search">
           <input type="text" placeholder="O que você está buscando?" />

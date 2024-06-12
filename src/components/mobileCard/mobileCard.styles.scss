@@ -2,14 +2,17 @@
   width: 270px;
   height: 450px;
 
-  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
-
   display: flex;
   flex-direction: column;
 
   gap: 8px;
 
   padding: 10px;
+
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+  cursor: pointer;
 
   .promotionPrice {
     text-decoration: line-through;
