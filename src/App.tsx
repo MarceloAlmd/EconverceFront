@@ -17,6 +17,7 @@ import "./App.styles.scss";
 import { A11y, Navigation, Pagination } from "swiper/modules";
 import { useState } from "react";
 import { ModalMobile } from "./components/modalMobile/modalMobile.comp";
+import { ButtonToggle } from "./components/buttonToggle/buttonToggle.comp";
 
 export function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -58,10 +59,21 @@ export function App() {
       </div>
 
       <RelatedProduct />
-      <a href="#" className="seeAll">
-        Ver todos
-      </a>
 
+      <ButtonToggle>
+        <Swiper modules={[Navigation, Pagination, A11y]} {...settings}>
+          {product.products.map((product) => (
+            <SwiperSlide key={product.descriptionShort}>
+              <MobileCard
+                openModal={() => setIsModalOpen(true)}
+                img={product.photo}
+                description={product.descriptionShort}
+                price={product.price}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </ButtonToggle>
       <div className="adsContent">
         <AdsCard title="Produtos" />
         <AdsCard title="Produtos" />

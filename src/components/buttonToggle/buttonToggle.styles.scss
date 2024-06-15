@@ -1,0 +1,35 @@
+.containerButtonToggle {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonToggle {
+  border: 0;
+  background: transparent;
+  font-size: 14px;
+
+  font-weight: bold;
+  color: var(--gray-700);
+
+  &:hover {
+    color: var(--gray-600);
+  }
+}
+
+.toggleDiv {
+  animation: fadeIn 0.5s;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
